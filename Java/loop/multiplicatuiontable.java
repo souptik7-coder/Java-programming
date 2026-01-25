@@ -1,3 +1,4 @@
+// multiplication table
 import java.util.*;
 public class multiplicatuiontable {
     public static void main(String args[]){

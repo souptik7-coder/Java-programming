@@ -1,3 +1,4 @@
+// factorial of any number
 import java.util.*;
 public class factorial {
     public static void main(String args[]){
