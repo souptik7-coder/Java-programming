@@ -1,3 +1,4 @@
+// Linear Search Program
 import java.util.*;
 public class linearsearch {
     public static int LinearSearch(int values[],int key){
