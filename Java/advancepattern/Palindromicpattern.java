@@ -1,3 +1,4 @@
+// palindromic pattern
 public class Palindromicpattern{
     public static void PalinDromicPattern(int n){
         for(int i=1;i<=n;i++){
