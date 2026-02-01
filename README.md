@@ -5,4 +5,4 @@
 # pattern
 # function
 # advance pattern
-# Array
+# Array (Linear Search,Binary Search)
