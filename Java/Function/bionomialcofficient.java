@@ -12,8 +12,8 @@ public class bionomialcofficient{
         int nfact=factorial(n);
         int rfact=factorial(r);
         int nrfact=factorial(n-r);
-        int ans = nfact/(rfact*nrfact);
-        return ans;
+        int bionomial = nfact/(rfact*nrfact);
+        return bionomial;
     } 
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
