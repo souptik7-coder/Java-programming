@@ -17,10 +17,6 @@ public class bionomialcofficient{
     } 
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter your number n:");
-        int n=sc.nextInt();
-        System.out.println("Enter your number r:");
-        int r=sc.nextInt();
-        System.out.println("bionomial cofficient:"+bionomial(n,r));
+        System.out.println("bionomial cofficient:"+bionomial(5,2));
     }
 }
