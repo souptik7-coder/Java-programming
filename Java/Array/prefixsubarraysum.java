@@ -8,18 +8,28 @@ public class prefixsubarraysum {
         for(int i=1;i<numbers.length;i++){
             prefix[i]=prefix[i-1]+numbers[i];   // build subarray
         }
+        System.out.print("The prefix array is :");
+        for(int i=0;i<prefix.length;i++){
+            System.err.print(prefix[i]+" ");
+        }
+        System.out.println();
         for(int i=0;i<numbers.length;i++){
             int start=i;
         for(int j=i;j<numbers.length;j++){
             int end=j;
-        sum=start==0?prefix[end]:prefix[i-1]+prefix[start-1];
+        // sum=start==0?prefix[end]:prefix[end]-prefix[start-1];
+        if(start==0){
+            sum=prefix[end];
+        }else{
+            sum=prefix[end]-prefix[start-1];
+        }
         System.out.println("The sum is :"+sum);
         if(sum>max){
             max=sum;
         }
         }
         }
-        System.out.println("The maximum sum is :"+sum);
+        System.out.println("The maximum sum is :"+max);
     }
     public static void main(String args[]){
         int numbers[]={1,-2,6,-1,3};
