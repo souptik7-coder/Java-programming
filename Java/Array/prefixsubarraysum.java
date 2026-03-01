@@ -4,7 +4,7 @@ public class prefixsubarraysum {
         int max=Integer.MIN_VALUE;
         int sum=0;
         int prefix[]=new int[numbers.length];
-        prefix[0]=numbers[0];
+        prefix[0]=numbers[0]; 
         for(int i=1;i<numbers.length;i++){
             prefix[i]=prefix[i-1]+numbers[i];   // build subarray
         }
