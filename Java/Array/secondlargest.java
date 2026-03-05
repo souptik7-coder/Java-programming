@@ -7,7 +7,7 @@ public class secondlargest {
             if(arr[i]>largest){
                 secondlargest=largest;
                 largest=arr[i];
-            }else if(arr[i]>secondlargest && secondlargest<largest){
+            }else if(largest>arr[i] && secondlargest<arr[i]){
                 secondlargest=arr[i];
             }
         }

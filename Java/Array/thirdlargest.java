@@ -10,10 +10,10 @@ public class thirdlargest {
                 thirdlargest=secondlargest;
                 secondlargest=largest;
                 largest=arr[i];
-            }else if(secondlargest>arr[i] && secondlargest<largest){   // find secondlargest
+            }else if(largest>arr[i] && secondlargest<arr[i]){   // find secondlargest
                 thirdlargest=secondlargest;
                 secondlargest=arr[i];
-            }else if(thirdlargest>arr[i] && thirdlargest<secondlargest && thirdlargest<largest){    // find thirdlargest
+            }else if(secondlargest>arr[i] && thirdlargest<arr[i]){    // find thirdlargest
                 thirdlargest=arr[i];
             }
         }if(thirdlargest==Integer.MIN_VALUE){
