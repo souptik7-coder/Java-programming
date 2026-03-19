@@ -8,3 +8,4 @@
 # Array (Linear Search,Binary Search)
 # Sorting (Bubble sort, Selection sort)
 # 2D Array
+# String
