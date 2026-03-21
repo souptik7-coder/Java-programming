@@ -9,3 +9,4 @@
 # Sorting (Bubble sort, Selection sort)
 # 2D Array
 # String
+# Bit Manipulation 
