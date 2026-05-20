@@ -17,7 +17,7 @@ public class MajorityElement {
         return -1;
     }
     public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int arr[]={5,4,2,1,1,1,1,1,4};
         System.out.println(majorityElement(arr));
     }
