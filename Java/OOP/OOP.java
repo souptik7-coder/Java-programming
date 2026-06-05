@@ -7,6 +7,15 @@ class OOP {
         System.out.println(p1.name);
         p1.setNumber(5);
         System.out.println(p1.number);
+
+        // concept of access modifiers
+
+        BankAccount acc = new BankAccount();
+        acc.setUsername("souptik_00");
+        System.out.println(acc.username);
+        acc.setPassword("souptik12345@");
+        // System.out.println(acc.setPassword);  -- gives error because password is private
+
     }
 }
 
@@ -22,5 +31,19 @@ class Pen {
     } 
     void setNumber(int newNumber){
         number = newNumber;
+    }
+
+}
+
+// concept of Access Modifiers
+
+class BankAccount {
+    public String username; 
+    private String password;
+    public void setUsername (String newUsername){
+        username = newUsername;
+    }
+    public void setPassword ( String newPassword){
+        password = newPassword;
     }
 }
