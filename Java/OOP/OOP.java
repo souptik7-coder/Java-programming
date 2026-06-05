@@ -1,5 +1,5 @@
 class OOP {
-    public static void main (String args[]){
+    public static void main(String args[]){
         Pen p1 = new Pen();
         p1.setColor("red");
         System.out.println(p1.color);
