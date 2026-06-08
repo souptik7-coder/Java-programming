@@ -30,7 +30,25 @@ public class TypeConversion{
             System.out.println(d1);
 
         
+         // Type promotion
+         
+         char a2 = 'a';
+         char b2 = 'b';
+         System.out.println((int)a2);
+         System.out.println((int)b2);
+        System.out.println(b2 - a2);
 
 
+        int y1 = 21;
+        double y2 = 52.25;
+        float y3 = 5.4f;
+        long y4 = 55;
+        double y5 = ( y1 + y2 + y3 + y4 );
+        System.out.println(y5);
+
+
+        byte k1 = 5;
+        byte k2 = (byte)(k1*2);
+        System.out.println(k2);
     }
 }
