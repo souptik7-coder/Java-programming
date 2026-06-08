@@ -1,3 +1,5 @@
+# source code.java >- complier >- Bytecode.class >- Java Virtual Machine >- Native Code
+
 # Basic Java Syntax
 # Operator
 # If Else
