@@ -19,8 +19,8 @@ public class Swapping {
         b = c;
 
 
-        System.out.println("a = " + a );
-        System.out.println("b = " + b );
+        System.out.println(" After Swapping a = " + a );
+        System.out.println(" After swapping b = " + b );
 
         // swapping without third variable
 
@@ -33,7 +33,7 @@ public class Swapping {
         y = x - y; // 4
         x = x - y; // 5
 
-        System.out.println("x = " + x);
-        System.out.println( "y = " + y);
+        System.out.println(" After swapping x = " + x);
+        System.out.println( " After swapping y = " + y);
     }
 }
