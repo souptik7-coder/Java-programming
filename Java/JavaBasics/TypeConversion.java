@@ -50,5 +50,18 @@ public class TypeConversion{
         byte k1 = 5;
         byte k2 = (byte)(k1*2);
         System.out.println(k2);
+
+
+        short r1 = 5;
+        short r2 = 10;
+        short r3 = (short)(r1 * r2);
+        System.out.println(r3);
+
+
+
+        float o1 = 5.4f;
+        float o2 = 5.9f;
+        float o3 = o1 * o2;
+        System.out.println(o3);
     }
 }
